@@ -55,8 +55,8 @@ exercism/
 
 - **`README.md`** — the original problem statement
 - **`HELP.md`** — Exercism's guidance file for the exercise
-- **`*.test.*`** — the test file (important — more on this below)
-- **`exercise-name.ts`** — my solution, sometimes with inline notes
+- **`exercise-name.test.*`** — the test file (important — more on this below)
+- **`exercise-name.*`** — my solution, sometimes with inline notes
 
 ---
 
@@ -135,7 +135,7 @@ Enable them progressively as you solve each case.
 ### 7. Submit your solution
 
 ```bash
-exercism submit name-of-the-file
+exercism submit exercise-name.*
 ```
 
 ### 8. Mark as complete and explore other solutions
