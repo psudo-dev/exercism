@@ -2,36 +2,31 @@
 
 Welcome to my personal archive of [Exercism](https://exercism.org) exercises.
 
-Just like with any other practice platform, nothing replaces building real-world projects — but Exercism has a different purpose in my learning stack.
+For me these exercises are less about grinding through exercises and more about going deeper: writing better code, understanding the language, learning best practices, and actually engaging with the community around it.
 
-It's less about grinding through exercises and more about going deeper: writing better code, understanding language idioms, learning best practices, and actually engaging with the community around it.
+The goal isn't to complete every single exercise — it's to take the most out of the ones I do.
 
-The goal isn't to complete every single exercise — it's to take the most out of the ones I do. If something isn't adding to my learning, I'll move on. This is a tool, not a checklist.
+## Exercises
 
----
+[![Exercism - Two Fer](https://img.shields.io/badge/TypeScript-Two%20Fer-009CAB?style=flat-square&logo=exercism)](./typescript/two-fer/README.md) [![Exercism - Resistor Color](https://img.shields.io/badge/TypeScript-Resistor%20Color-009CAB?style=flat-square&logo=exercism)](./typescript/resistor-color/README.md) [![Exercism - Resistor Color Duo](https://img.shields.io/badge/TypeScript-Resistor%20Color%20Duo-009CAB?style=flat-square&logo=exercism)](./typescript/resistor-color-duo/README.md) [![Exercism - Resistor Color Trio](https://img.shields.io/badge/TypeScript-Resistor%20Color%20Trio-009CAB?style=flat-square&logo=exercism)](./typescript/resistor-color-trio/README.md) [![Exercism - Leap](https://img.shields.io/badge/TypeScript-Leap-009CAB?style=flat-square&logo=exercism)](./typescript/leap/README.md) [![Exercism - Line Up](https://img.shields.io/badge/TypeScript-Line%20Up-009CAB?style=flat-square&logo=exercism)](./typescript/line-up/README.md) [![Exercism - RNA Transcription](https://img.shields.io/badge/TypeScript-RNA%20Transcription-009CAB?style=flat-square&logo=exercism)](./typescript/rna-transcription/README.md) [![Exercism - Space Age](https://img.shields.io/badge/TypeScript-Space%20Age-009CAB?style=flat-square&logo=exercism)](./typescript/space-age/README.md) [![Exercism - DnD Character](https://img.shields.io/badge/TypeScript-DnD%20Character-009CAB?style=flat-square&logo=exercism)](./typescript/dnd-character/README.md)
 
 ## Why Exercism over just doing projects
 
-The thing that sets Exercism apart is the feedback loop. You submit a solution, a mentor reviews your actual code and points out what could be better, you refactor, and you compare with how other people solved the same problem. That cycle — write → get feedback → refactor → explore alternatives — is very close to how growth actually happens in a real team. It's the closest thing to a code review culture you can get outside of a job.
+The thing that sets Exercism apart is the feedback loop. You submit a solution, a mentor reviews your actual code and points out what could be better, you refactor, and you compare with how other people solved the same problem.
 
-Beyond that, it pushes me to think about things I'd otherwise skip in a personal project: unnecessary abstractions, idiomatic patterns vs just making it work, and whether my code is actually readable to someone who didn't write it.
+That cycle — write → get feedback → refactor → explore alternatives — is very close to how growth actually happens in a real team.
 
----
+But it's also about writing cleaner and more readable code, removing unnecessary abstractions, and it's about writing code that other developers can read and understand without needing to decipher it.
 
 ## Repository Purpose
 
-- **Language Depth:** Going beyond syntax — understanding how a language is meant to be written, not just how to make it work.
-- **Clean Code Habits:** Readability and maintainability first. Code is read way more often than it's written.
+- **Language Depth:** Going beyond syntax, learning good practices.
 - **Mentorship & Community:** Using feedback from real developers and other solutions as part of the learning process.
 - **Deliberate Refactoring:** Revisiting solutions after seeing other approaches, not just submitting and moving on.
-
----
 
 ## Coding Philosophy
 
 My priority when solving these exercises is readability and maintainability over cleverness. I'm not here to write impressive one-liners or abuse obscure language features — unless I find one genuinely interesting, which I might explore out of curiosity.
-
----
 
 ## Project Structure
 
@@ -57,8 +52,6 @@ exercism/
 - **`HELP.md`** — Exercism's guidance file for the exercise
 - **`exercise-name.test.*`** — the test file (important — more on this below)
 - **`exercise-name.*`** — my solution, sometimes with inline notes
-
----
 
 ## Practical Guide for Exercism
 
@@ -142,8 +135,6 @@ exercism submit exercise-name.*
 
 After submitting, go back to the exercise page on Exercism and mark it as complete. Once you do that, you unlock the community solutions. Look at how other people approached the same problem, especially the ones that are very different from yours.
 
----
-
 ## A few thoughts on the platform
 
 Exercism is genuinely good. The mentorship model, the community, the focus on clean code — it's one of the more thoughtful platforms out there for actually learning a language rather than just collecting points.
@@ -165,8 +156,6 @@ But from a user experience perspective, there's no reason why the test runner co
 More clarity and automation here wouldn't take anything away from the learning process — it would just remove unnecessary friction and improve the overall user experience, even more for beginners.
 
 And I say that because it bothers me, my mind automatically goes: how do you make the experience smoother for someone who's never used the platform before, without dumbing it down or removing the exploration that's core to how developers actually learn?
-
----
 
 ## My Exercism Profile
 
