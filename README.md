@@ -4,9 +4,7 @@ Welcome to my personal archive of [Exercism](https://exercism.org) exercises.
 
 For me these exercises are less about grinding through exercises and more about going deeper: writing better code, understanding the language, learning best practices, and actually engaging with the community around it.
 
-The goal isn't to complete every single exercise — it's to take the most out of the ones I do.
-
-## Exercises
+## Exercises in Order of Completion
 
 [![Exercism - Two Fer](https://img.shields.io/badge/TypeScript-Two%20Fer-009CAB?style=flat-square&logo=exercism)](./typescript/two-fer/README.md) [![Exercism - Resistor Color](https://img.shields.io/badge/TypeScript-Resistor%20Color-009CAB?style=flat-square&logo=exercism)](./typescript/resistor-color/README.md) [![Exercism - Resistor Color Duo](https://img.shields.io/badge/TypeScript-Resistor%20Color%20Duo-009CAB?style=flat-square&logo=exercism)](./typescript/resistor-color-duo/README.md) [![Exercism - Resistor Color Trio](https://img.shields.io/badge/TypeScript-Resistor%20Color%20Trio-009CAB?style=flat-square&logo=exercism)](./typescript/resistor-color-trio/README.md) [![Exercism - Leap](https://img.shields.io/badge/TypeScript-Leap-009CAB?style=flat-square&logo=exercism)](./typescript/leap/README.md) [![Exercism - Line Up](https://img.shields.io/badge/TypeScript-Line%20Up-009CAB?style=flat-square&logo=exercism)](./typescript/line-up/README.md) [![Exercism - RNA Transcription](https://img.shields.io/badge/TypeScript-RNA%20Transcription-009CAB?style=flat-square&logo=exercism)](./typescript/rna-transcription/README.md) [![Exercism - Space Age](https://img.shields.io/badge/TypeScript-Space%20Age-009CAB?style=flat-square&logo=exercism)](./typescript/space-age/README.md) [![Exercism - DnD Character](https://img.shields.io/badge/TypeScript-DnD%20Character-009CAB?style=flat-square&logo=exercism)](./typescript/dnd-character/README.md)
 
