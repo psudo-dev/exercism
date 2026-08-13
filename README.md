@@ -28,7 +28,7 @@ My priority when solving these exercises is readability and maintainability over
 
 ## Project Structure
 
-Exercism organizes everything by language track. Each track gets its own folder, and inside it one folder per exercise — that's just how the CLI downloads them.
+Exercism organizes everything by language track. Each track gets its own folder, and inside it, one folder per exercise — that's just how the CLI commands downloads them.
 
 ```text
 exercism/
@@ -87,7 +87,7 @@ Before touching any code, read `HELP.md`. It tells you what commands are availab
 
 ### 4. Install the Test Suite
 
-Inside the exercise folder, run:
+For TypeScript, inside the exercise folder, run:
 
 ```bash
 corepack yarn install
@@ -145,15 +145,13 @@ If you just read the problem description and start coding, you might spend a whi
 
 ### Manually editing the test file
 
-The manual test enabling is another thing that feels like it has room to grow. I get that running one test at a time can help you stay focused on a single case — and maybe there's a reason for keeping it manual that has more to do with the exercise authoring side than the user side, who knows?
+Enabling tests manually is another thing that feels like it has room to grow. I get that running one test at a time can help you stay focused on a single case — and maybe there's a reason for keeping it manual that has more to do with the exercise authoring side than the user side, who knows?
 
 But from a user experience perspective, there's no reason why the test runner couldn't just tell you exactly which test failed and stop there. You'd still know where to look, you'd still open the test file, you'd still explore.
 
 ### Better instructions and automation wouldn't hurt
 
-More clarity and automation here wouldn't take anything away from the learning process — it would just remove unnecessary friction and improve the overall user experience, even more for beginners.
-
-And I say that because it bothers me, my mind automatically goes: how do you make the experience smoother for someone who's never used the platform before, without dumbing it down or removing the exploration that's core to how developers actually learn?
+More clarity and automation wouldn't take anything away from the learning process — it would just remove unnecessary friction and improve the overall user experience, even more for beginners.
 
 ## My Exercism Profile
 
