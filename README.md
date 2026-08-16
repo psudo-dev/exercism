@@ -1,14 +1,16 @@
 # Exercism
 
-Welcome to my personal archive of [Exercism](https://exercism.org) exercises.
+This is where I keep track of my progress on [Exercism](https://exercism.org) exercises.
 
-For me these exercises are less about grinding through exercises and more about going deeper: writing better code, understanding the language, learning best practices, and actually engaging with the community around it.
+Exercism is a great platform to keep practicing coding fundamentals, good practices, and problem-solving, letting you focus on the logic itself through short, focused exercises.
+
+What makes it stand out is the mentor feedback — this isn't about grinding through as many exercises as possible, but going deeper: writing better code, understanding the language more thoroughly, learning best practices, and actually engaging with the community around it.
 
 ## Exercises in Order of Completion
 
 [![Exercism - Two Fer](https://img.shields.io/badge/TypeScript-Two%20Fer-009CAB?style=flat-square&logo=exercism)](./typescript/two-fer/README.md) [![Exercism - Resistor Color](https://img.shields.io/badge/TypeScript-Resistor%20Color-009CAB?style=flat-square&logo=exercism)](./typescript/resistor-color/README.md) [![Exercism - Resistor Color Duo](https://img.shields.io/badge/TypeScript-Resistor%20Color%20Duo-009CAB?style=flat-square&logo=exercism)](./typescript/resistor-color-duo/README.md) [![Exercism - Resistor Color Trio](https://img.shields.io/badge/TypeScript-Resistor%20Color%20Trio-009CAB?style=flat-square&logo=exercism)](./typescript/resistor-color-trio/README.md) [![Exercism - Leap](https://img.shields.io/badge/TypeScript-Leap-009CAB?style=flat-square&logo=exercism)](./typescript/leap/README.md) [![Exercism - Line Up](https://img.shields.io/badge/TypeScript-Line%20Up-009CAB?style=flat-square&logo=exercism)](./typescript/line-up/README.md) [![Exercism - RNA Transcription](https://img.shields.io/badge/TypeScript-RNA%20Transcription-009CAB?style=flat-square&logo=exercism)](./typescript/rna-transcription/README.md) [![Exercism - Space Age](https://img.shields.io/badge/TypeScript-Space%20Age-009CAB?style=flat-square&logo=exercism)](./typescript/space-age/README.md) [![Exercism - DnD Character](https://img.shields.io/badge/TypeScript-DnD%20Character-009CAB?style=flat-square&logo=exercism)](./typescript/dnd-character/README.md)
 
-## Why Exercism over just doing projects
+## What's different about Exercism?
 
 The thing that sets Exercism apart is the feedback loop. You submit a solution, a mentor reviews your actual code and points out what could be better, you refactor, and you compare with how other people solved the same problem.
 
@@ -16,15 +18,11 @@ That cycle — write → get feedback → refactor → explore alternatives — 
 
 But it's also about writing cleaner and more readable code, removing unnecessary abstractions, and it's about writing code that other developers can read and understand without needing to decipher it.
 
-## Repository Purpose
-
-- **Language Depth:** Going beyond syntax, learning good practices.
-- **Mentorship & Community:** Using feedback from real developers and other solutions as part of the learning process.
-- **Deliberate Refactoring:** Revisiting solutions after seeing other approaches, not just submitting and moving on.
-
 ## Coding Philosophy
 
-My priority when solving these exercises is readability and maintainability over cleverness. I'm not here to write impressive one-liners or abuse obscure language features — unless I find one genuinely interesting, which I might explore out of curiosity.
+- **Language Depth:** Going beyond syntax, learning good practices and how the language works.
+- **Mentorship & Community:** Using feedback from real developers and other solutions as part of the learning process.
+- **Deliberate Refactoring:** Revisiting solutions after seeing other approaches, not just submitting and moving on.
 
 ## Project Structure
 
@@ -50,6 +48,10 @@ exercism/
 - **`HELP.md`** — Exercism's guidance file for the exercise
 - **`exercise-name.test.*`** — the test file (important — more on this below)
 - **`exercise-name.*`** — my solution, sometimes with inline notes
+
+## CLI Tools for Exercism
+
+I developed some simple CLI tools to make working with Exercism easier, and to automate some of the repetitive tasks. You can find them in the [psudo-tools](https://github.com/psudo-dev/psudo-tools) repository.
 
 ## Practical Guide for Exercism
 
@@ -145,7 +147,7 @@ If you just read the problem description and start coding, you might spend a whi
 
 ### Manually editing the test file
 
-Enabling tests manually is another thing that feels like it has room to grow. I get that running one test at a time can help you stay focused on a single case — and maybe there's a reason for keeping it manual that has more to do with the exercise authoring side than the user side, who knows?
+Enabling tests manually is another thing that feels like it could be better. I get that running one test at a time can help you stay focused on a single case — and maybe there's a reason for keeping it manual that has more to do with the exercise authoring side than the user side, who knows?
 
 But from a user experience perspective, there's no reason why the test runner couldn't just tell you exactly which test failed and stop there. You'd still know where to look, you'd still open the test file, you'd still explore.
 
