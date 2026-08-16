@@ -18,7 +18,7 @@ That cycle — write → get feedback → refactor → explore alternatives — 
 
 But it's also about writing cleaner and more readable code, removing unnecessary abstractions, and it's about writing code that other developers can read and understand without needing to decipher it.
 
-## Coding Philosophy
+## Approach
 
 - **Language Depth:** Going beyond syntax, learning good practices and how the language works.
 - **Mentorship & Community:** Using feedback from real developers and other solutions as part of the learning process.
